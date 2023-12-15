@@ -6,14 +6,7 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <div>
-      <HashRouter>
-        <Routes>
-          <Route path="/" element={ <Main /> }>
-            <Route index element={ <Home /> } />
-            <Route path="/contact" element={ <Contact /> } />
-          </Route>
-        </Routes>
-      </HashRouter>
+      <Home />
     </div>
   );
 }
